@@ -10,7 +10,7 @@ import Foundation
 
 public class DanCarthageSDK{
     
-    public func logToConsole(msg: String){
+    public class func logToConsole(msg: String){
         print(msg)
     }
     
