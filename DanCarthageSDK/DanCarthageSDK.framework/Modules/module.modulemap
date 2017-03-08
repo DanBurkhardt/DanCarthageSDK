@@ -1,0 +1,10 @@
+framework module DanCarthageSDK {
+  umbrella header "DanCarthageSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module DanCarthageSDK.Swift {
+    header "DanCarthageSDK-Swift.h"
+}
